@@ -1,0 +1,18 @@
+site name - fjalla 25
+navigation - fjalla 13
+main img header - jjalla 31
+main img link fjalla 15
+first section header - fjalla 21
+first section text - lato 14
+sec section header - fjalla 21
+sec section title lato 20
+sec scttion article title - lato bold 16
+sec section article text - lato 14
+"more" - oswald 14
+subscribe header - Fjalla 21
+subscribe text - lato 16
+"enter your email" - lato italic 14
+"subsctibe" - fjalla 15
+pre footer section header - fjalla 21
+pre footer section text lato 14
+footer - lato 14
