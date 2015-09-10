@@ -340,7 +340,6 @@ input:focus, textarea {
     width: 1180px;
     height: 569px;
     margin: 0 auto;
-    outline: 1px solid red;
 }
 .contacts__more {
     width: 370px;
@@ -401,6 +400,7 @@ input:focus, textarea {
     outline: 1px solid red;
     float: left;
     height: 100%;
+    margin-right: 30px;
 }
 .contacts__feedback {
     padding-top: 27px;
@@ -461,4 +461,77 @@ input:focus, textarea {
     background: url('img/arrow-white.png');
     width: 15px;
     height: 7px;
+}
+/* links section */
+.contacts__links-wrap {
+    width: 365px;
+    outline: 1px solid red;
+    float: left;
+    height: 100%;
+}
+.contacts__address {
+    margin-top: 25px;
+    height: 122px;
+    padding-top: 28px;
+    padding-right: 40px;
+    border-top: 1px solid lightgrey;
+    border-bottom: 1px solid lightgrey;
+    padding-left: 50px;
+}
+.contacts__address-title, .contacts__phone-title,.contacts__email-title {
+    color: #E84C3D;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+    position: relative;
+}
+.contacts__address-title:before {
+    content: "";
+    display: block;
+    width: 27px;
+    height: 22px;
+    background-image: url('img/home.png');
+    position: absolute;
+    left: -50px;
+    top: 2px;
+}
+.contacts__phone-title:before {
+    content: "";
+    display: block;
+    width: 22px;
+    height: 23px;
+    position: absolute;
+    left: -50px;
+    top: 2px;
+    background: url('img/phone.png');
+}
+.contacts__email-title:before {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 19px;
+    position: absolute;
+    left: -50px;
+    top: 2px;
+    background: url('img/mail.png');
+}
+.contacts__address-text, .contacts__phone-text, .contacts__email-text {
+    font-family: 'Lato', sans-serif;
+    color: #888D8F;
+    font-size: 14px;
+    margin-top: 5px;
+    line-height: 19px;
+}
+.contacts__phone {
+    height: 122px;
+    padding-top: 28px;
+    padding-right: 40px;
+    border-bottom: 1px solid lightgrey;
+    padding-left: 50px;
+}
+.contacts__email {
+    height: 122px;
+    padding-top: 28px;
+    padding-right: 40px;
+    border-bottom: 1px solid lightgrey;
+    padding-left: 50px;
 }
