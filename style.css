@@ -146,7 +146,6 @@ input:focus, textarea {
     background-color: white;
     max-width: 100%;
     height: 1272px;
-    outline: 1px solid red;
 }
 .services {
     margin: 0 auto;
@@ -234,7 +233,7 @@ input:focus, textarea {
 /* subscription section */
 
 .subscription {
-    margin: 0 53px auto;
+    margin: 0 auto;
     padding: 50px 28px 50px 32px;
     width: 1170px;
     max-width: 100%;
@@ -343,7 +342,6 @@ input:focus, textarea {
 }
 .contacts__more {
     width: 370px;
-    outline: 1px solid red;
     float: left;
     height: 100%;
     margin-right: 28px;
@@ -397,7 +395,6 @@ input:focus, textarea {
 /* contacts form section */
 .contacts__feedback-wrap {
     width: 370px;
-    outline: 1px solid red;
     float: left;
     height: 100%;
     margin-right: 30px;
@@ -465,7 +462,6 @@ input:focus, textarea {
 /* links section */
 .contacts__links-wrap {
     width: 365px;
-    outline: 1px solid red;
     float: left;
     height: 100%;
 }
@@ -529,9 +525,91 @@ input:focus, textarea {
     padding-left: 50px;
 }
 .contacts__email {
-    height: 122px;
+    height: 148px;
     padding-top: 28px;
     padding-right: 40px;
     border-bottom: 1px solid lightgrey;
     padding-left: 50px;
+}
+/* start footer section */
+.footer {
+    background: #202528;
+    height: 205px;
+}
+.footer__inner {
+    width: 1190px;
+    height: 205px;
+    padding-top: 75px;
+    padding-left: 18px;
+    margin: 0 auto;
+}
+.footer__menu-wrap {
+    width: 60%;
+    float: left;
+}
+.footer__menu {
+    list-style: none;
+}
+.footer__menu-item {
+    display: inline-block;
+    margin-right: 38px;
+}
+
+.footer__menu-link {
+    display: block;
+    color: #888D8F;
+    font-family: 'Lato',sans-serif;
+    font-size: 14px;
+    font-weight: 100;
+    text-decoration: none;
+    position: relative;
+}
+.footer__menu-link:after {
+    content: '/';
+    display: block;
+    position: absolute;
+    top: 0;
+    right: -25px;
+}
+/* не могу убрать последний слеш в меню -----
+.footer__menu-link:last-of-type:after{
+    content: '';
+}
+*/
+.footer__copyrights {
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 100;
+    color: #E84C3D;
+    margin-top: 13px;
+}
+.footer__copyrights-span {
+    color: #888D8F;
+}
+.footer__socials {
+    width: 40%;
+    float: right;
+    list-style: none;
+}
+.footer__socials-item {
+    display: inline-block;
+    float: right;
+    margin-right: 5px;
+}
+.footer__socials-link {
+    display: block;
+    border-radius: 100%;
+    height: 45px;
+    width: 45px;
+    background: url('img/socials.png') no-repeat,
+    #E84C3D;
+}
+.footer__socials-link_fb {
+    background-position: 17px 13px;
+}
+.footer__socials-link_twitter {
+    background-position: -34px 13px;
+}
+.footer__socials-link_linkedin {
+    background-position: -87px 13px;
 }
