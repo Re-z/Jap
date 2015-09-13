@@ -3,14 +3,16 @@
 <head lang="en">
     <meta charset="UTF-8">
     <title>Another template</title>
+    <meta name="viewport" content="width=device-width"/>
     <link rel="stylesheet" href="style.css"/>
+    <link rel="stylesheet" href="adaptive.css"/>
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
 </head>
 <body>
 <header class="header">
-    <div class="header-inner">
+    <div class="header__inner">
         <h1 class="header__title">SITE NAME</h1>
         <nav>
             <ul class="header__menu">
@@ -60,7 +62,7 @@
             <article class="services__article">
                 <h4 class="services__article-title">Aenean egestas enteet</h4>
                 <p class="services__article-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque blanditiis consequatur fugiat minus nam nobis nostrum, similique temporibus voluptatibus. Adipisci aliquid corporis culpa cum delectus deserunt, dicta, dolor laudantium pariatur reprehenderit sapiente ullam veniam voluptatum! Debitis, quis! </p>
-                <button class="services__btn">MORE</button>
+                <button class="services__btn services__btn_float">MORE</button>
             </article>
         </div>
         <div class="services__img-container"></div>
@@ -138,31 +140,30 @@
             </div>
         </div>
     </section>
-    <footer class="footer">
-        <!--есть ли смысл так делать - футеру давать класс футер?-->
-        <div class="footer__inner">
-            <div class="footer__menu-wrap">
-                <nav>
-                    <ul class="footer__menu">
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">Home</a></li>
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">About</a></li>
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">Services</a></li>
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">Portfolio</a></li>
-                        <li class="footer__menu-item"><a class="footer__menu-link" href="#">Contact</a></li>
-                    </ul>
-                </nav>
-                <p class="footer__copyrights">Designed by www.alltemplateneeds.com /
-                    <span class="footer__copyrights-span">Images from: www.wallapaperswide.com/Copyright(c)Website name</span>
-                </p>
-            </div>
-            <ul class="footer__socials">
-                <li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_linkedin" href="#"></a></li>
-                <li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_twitter" href="#"></a></li>
-                <li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_fb" href="#"></a></li>
-            </ul>
-        </div>
-    </footer>
 </main>
-
+<footer class="footer">
+    <!--есть ли смысл так делать - футеру давать класс футер?-->
+    <div class="footer__inner">
+        <div class="footer__menu-wrap">
+            <nav>
+                <ul class="footer__menu">
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="#">Home</a></li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="#">About</a></li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="#">Services</a></li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="#">Portfolio</a></li>
+                    <li class="footer__menu-item"><a class="footer__menu-link" href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <p class="footer__copyrights">Designed by www.alltemplateneeds.com /
+                <span class="footer__copyrights-span">Images from: www.wallapaperswide.com/Copyright(c)Website name</span>
+            </p>
+        </div>
+        <ul class="footer__socials">
+            <li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_linkedin" href="#"></a></li>
+            <li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_twitter" href="#"></a></li>
+            <li class="footer__socials-item"><a class="footer__socials-link footer__socials-link_fb" href="#"></a></li>
+        </ul>
+    </div>
+</footer>
 </body>
 </html>

@@ -16,7 +16,7 @@ input:focus, textarea {
     height: 80px;
     background: #202628;
 }
-.header-inner {
+.header__inner {
     background: #202628;
     width: 1190px;
     margin: 0 auto;
@@ -535,7 +535,6 @@ input:focus, textarea {
 }
 /* start footer section */
 .footer {
-    height: 205px;
     background-color: #202528;
 }
 .footer__inner {
