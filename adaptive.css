@@ -180,6 +180,75 @@
     .footer__socials-item {
         float: none;
     }
-
 }
+/* adapting for 480 px*/
+@media (max-width: 480px) {
+    .header__inner, .about, .about__inner, .services,.subscription, .contacts, .footer__inner {
+        width: 480px;
+    }
+    .header__inner {
+        padding-right: 30px;
+    }
+    .intro {
+        min-width: 480px;
+        height: 230px;
+    }
+    .content {
+        width: 480px;
+        height: 2250px;
+    }
+    .about {
+        height: 500px;
+    }
+    .about__article {
+        width: 100%;
+        margin-top: -20px;
+        height: 166px;
+    }
+    .about__article:first-of-type {
+        margin-top: 0;
+    }
+    .about__img_shield {
+        margin-left: 0;
+    }
+    .services {
+        height: 530px;
+        overflow: hidden;
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    .subscription__form-text {
+        width: 260px;
+    }
+    .contacts__more {
+        height: auto;
+    }
+    .contacts__article {
+        height: 101px;
+        padding-top: 8px;
+    }
+    .contacts__feedback-wrap {
+        margin-top: 30px;
+    }
+    .contacts__address, .contacts__phone, .contacts__email {
+        float: none;
+        width: 400px;
+        margin: 0 auto;
+        border-bottom: 1px solid lightgrey;
+    }
+    .footer__inner {
+        height: 185px;
+    }
+    .footer__menu-wrap {
+        margin-top: 10px;
+    }
+    .footer__copyrights {
+        margin-top: 26px;
+    }
+    .footer__socials {
+        top: -140px;
+    }
+}
+    
+
 
