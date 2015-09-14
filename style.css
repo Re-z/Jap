@@ -16,12 +16,14 @@ input:focus, textarea {
     height: 80px;
     background: #202628;
 }
+
 .header_mobile {
     position: fixed;
 }
 .header__inner {
     background: #202628;
     width: 1190px;
+    position: relative;
     margin: 0 auto;
     height: 80px; /* ??? */
 
@@ -44,12 +46,10 @@ input:focus, textarea {
 .header__menu_mobile {
     position: absolute;
     text-align: center;
-    outline: 1px solid green;
     width: 100%;
     top: 80px;
     background-color: #202628;
-    border-top: 1px solid white;
-    float: none;
+    border-bottom: 1px solid white;
 }
 .header__menu-item {
     display: inline-block;
