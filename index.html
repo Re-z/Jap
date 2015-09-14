@@ -4,8 +4,9 @@
     <meta charset="UTF-8">
     <title>Jap theme template</title>
     <meta name="viewport" content="width=device-width"/>
-    <link rel="stylesheet" href="style.css"/>
-    <link rel="stylesheet" href="adaptive.css"/>
+    <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/adaptive.css"/>
+    <link rel="stylesheet" href="css/animate.css"/>
     <link href='https://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Lato:400,400italic,700' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
@@ -38,17 +39,17 @@
 <div class="about">
     <div class="about__inner">
         <article class="about__article">
-            <div class="about__img about__img_rocket"></div>
+            <div class="about__img about__img_rocket fadeInLeft animated wow" data-wow-duration="2s"></div>
             <h3 class="about__title">ALIQUAM TINCIDUNT</h3>
             <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus expedita fugit impedit necessitatibus provident recusandae sunt veritatis <a href="#" class="about__link">=> more</a></p>
         </article>
         <article class="about__article">
-            <div class="about__img about__img_shield"></div>
+            <div class="about__img about__img_shield wow fadeInLeft  animated" data-wow-delay=".2s" data-wow-duration="2s"></div>
             <h3 class="about__title">CRAS ORNARE TRISTIQU</h3>
             <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus expedita fugit impedit necessitatibus provident recusandae sunt veritatis <a href="#" class="about__link">=> more</a></p>
         </article>
         <article class="about__article">
-            <div class="about__img about__img_extinguisher"></div>
+            <div class="about__img about__img_extinguisher wow fadeInLeft animated " data-wow-delay=".4s" data-wow-duration="2s"></div>
             <h3 class="about__title">VEVAMUS VESTIBULUM</h3>
             <p class="about__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Doloribus expedita fugit impedit necessitatibus provident recusandae sunt veritatis <a href="#" class="about__link">=> more</a></p>
         </article>
@@ -58,7 +59,7 @@
     <section class="services">
         <div class="services__text-wrapper">
             <h2 class="services__header">DONEC NEC JUSTO EGET FELLIS FASILIS FERMENTUM. ALIQUAM PORTITOR SIT AMET ORCI. ANEAN DICNISSIM PELENTESUQE FELIS</h2>
-            <h3 class="services__title">Civamus vestibulum nulla nec ante</h3>
+            <h3 class="services__title wow flipInX animated" data-wow-duration="2s" data-wow-offset="150">Civamus vestibulum nulla nec ante</h3>
             <article class="services__article">
                 <h4 class="services__article-title">Set agestas anteet</h4>
                 <p class="services__article-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi atque blanditiis consequatur fugiat minus nam nobis nostrum, similique temporibus voluptatibus. Adipisci aliquid corporis culpa cum delectus deserunt, dicta, dolor laudantium pariatur reprehenderit sapiente ullam veniam voluptatum! Debitis, quis!</p>
@@ -83,7 +84,7 @@
         <div class="subscription__form-wrap">
                 <h5 class="subscription__title">MORBI VITAE LUCTUS</h5>
                 <form class="subscription__form">
-                    <input class="subscription__form-text" type="text" placeholder="enter your email id here...">
+                    <input class="subscription__form-text" type="text" placeholder="enter your email id here..." data-wow-delay="0">
                     <div class="subscription__form-submit-wrap">
                         <input class="subscription__form-submit" type="submit" value="SUBSCRIBE">
                     </div>
@@ -91,7 +92,7 @@
             </div>
     </section>
     <section class="contacts"> <!--Какого хуя, когда ставлю dib, то первый блок идет по пизде, а остальные норм. А когда float-ами делаю, то все нормально?!!!-->
-        <div class="contacts__more">
+        <div class="contacts__more wow fadeIn animated" data-wow-offset="150" data-wow-duration="2s" data-wow-delay="0s">
             <h4 class="contacts__title">ALIQUAM TINCIDUNT</h4>
             <article class="contacts__article">
                 <div class="contacts__article-img contacts__article-img_1"></div>
@@ -114,7 +115,7 @@
                 <a  class="contacts__article-link" href="#"> more =></a></p>
             </article>
         </div>
-        <div class="contacts__feedback-wrap">
+        <div class="contacts__feedback-wrap wow fadeIn animated" data-wow-delay=".5s" data-wow-offset="150" data-wow-duration="2s">
             <h4 class="contacts__title">NUNC DIGNISSIM RISU</h4>
             <form class="contacts__feedback">
                 <p class="contacts__text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Delectus libero, assumenda voluptates.</p>
@@ -126,7 +127,7 @@
                 </div>
             </form>
         </div>
-        <div class="contacts__links-wrap">
+        <div class="contacts__links-wrap wow fadeIn animated" data-wow-delay="1s" data-wow-offset="150" data-wow-duration="2s" >
             <h4 class="contacts__title">ALIQUAM TINCIDUNT</h4>
             <div class="contacts__address">
                 <h6 class="contacts__address-title">Address</h6>
@@ -171,6 +172,8 @@
     </div>
 </footer>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script src="js/wow.js"></script>
+
 <script type="text/javascript">
     $(function(){
         var windowWidth = $(window).width();
@@ -187,6 +190,9 @@
           
 
     })
+</script>
+<script>
+    new WOW().init();
 </script>
 </body>
 </html>
