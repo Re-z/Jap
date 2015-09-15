@@ -28,7 +28,6 @@
         width: 100%;
         float: none;
     }
-
     .services__header {
         text-align: center;
     }
@@ -55,7 +54,6 @@
     .contacts__more {
         margin-right: 0;
         width: 340px;
-
     }
     .contacts__article:first-of-type, .contacts__address {
         border-top: none;
@@ -89,7 +87,6 @@
     }
     .about__article {
         display: inline-block;
-
         width: 49%;
         height: 206px;
         padding-top: 30px;
@@ -121,7 +118,6 @@
         float: none;
         height: auto;
         text-align: center;
-
     }
     .subscription__img {
         margin: 0 auto;
@@ -143,7 +139,6 @@
         margin: 0 auto;
         margin-top: -30px;
         text-align: center;
-
     }
     .contacts__feedback-submit-wrap {
         left: 10px;
@@ -188,6 +183,12 @@
     }
     .header__inner {
         padding-right: 30px;
+    }
+    .header__menu {
+        display: none;
+    }
+    .header__menu-burger {
+        display: block;
     }
     .intro {
         min-width: 480px;

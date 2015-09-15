@@ -1,6 +1,4 @@
-/*font-family: 'Fjalla One', sans-serif;
-font-family: 'Lato', sans-serif;
-font-family: 'Oswald', sans-serif; */
+
 * {
     margin: 0;
     padding: 0;
@@ -16,7 +14,6 @@ input:focus, textarea {
     height: 80px;
     background: #202628;
 }
-
 .header_mobile {
     position: fixed;
 }
@@ -26,7 +23,6 @@ input:focus, textarea {
     position: relative;
     margin: 0 auto;
     height: 80px; /* ??? */
-
 }
 .header__title {
     font-family: 'Fjalla One', sans-serif;
@@ -60,7 +56,6 @@ input:focus, textarea {
     width: 100%;
     height: 40px;
 }
-
 .header__menu-item:last-of-type {
     margin-right: 0;
 }
@@ -73,8 +68,6 @@ input:focus, textarea {
     display: none;
     cursor: pointer;
 }
-
-
 .header__menu-burger-span {
     display: block;
     width: 30px;
@@ -102,7 +95,6 @@ input:focus, textarea {
     line-height: 40px;
     padding: 0;
 }
-
 .header__menu-link:hover {
     background: #E84C3D;
 }
@@ -148,7 +140,6 @@ input:focus, textarea {
     margin-right: 31px;
     margin-top: 2px;
     margin-bottom: 125px;
-
 }
 .about__img_rocket {
     background-image: url("../img/sprites.png");
@@ -198,7 +189,6 @@ input:focus, textarea {
     float: left;
     width: 69%;
     height: 100%;
-
 }
 .services__header {
     font-family: Fjalla One, sans-serif;
@@ -267,7 +257,7 @@ input:focus, textarea {
     height: 357px;
     border-radius: 50%;
     float: right;
-    background-image: url("../img/jap-img.jpg");
+    background-image: url("../img/jap-img.png");
 }
 
 /* subscription section */
@@ -326,7 +316,6 @@ input:focus, textarea {
 .subscription__form {
     margin-top: 25px;
 }
-
 .subscription__form-text {
     width: 380px;
     font-family: 'Lato',sans-serif;
@@ -344,7 +333,6 @@ input:focus, textarea {
 .subscription__form-submit-wrap {
     position: relative;
     display: inline-block;
-
 }
 .subscription__form-submit-wrap:after {
     content: "";
@@ -553,7 +541,6 @@ input:focus, textarea {
     top: 2px;
     background: url('../img/sprites.png');
     background-position: -7px -197px ;
-
 }
 .contacts__address-text, .contacts__phone-text, .contacts__email-text {
     font-family: 'Lato', sans-serif;
@@ -598,7 +585,6 @@ input:focus, textarea {
     display: inline-block;
     margin-right: 38px;
 }
-
 .footer__menu-link {
     display: block;
     color: #888D8F;
@@ -633,7 +619,6 @@ input:focus, textarea {
 .footer__socials {
     float: right;
     list-style: none;
-
 }
 .footer__socials-item {
     display: inline-block;
@@ -650,7 +635,6 @@ input:focus, textarea {
 }
 .footer__socials-link_fb {
     background-position: -82px -295px;
-
 }
 .footer__socials-link_twitter {
     background-position: -135px -295px;
